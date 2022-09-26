@@ -1,0 +1,37 @@
+* {
+    background-color: aquamarine;
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+    box-decoration-break: slice;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+header h1, header h2, footer h1, footer p{
+height: 10vh;
+background-color: blue;
+color: antiquewhite;
+text-align: center;}
+main{
+    flex:1;
+    padding: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align:left;
+}
+#aboutme img{
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+#workpic img{
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+#contact info{
+    text-align: center;
+    display: flex;
+}
