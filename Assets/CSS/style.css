@@ -1,37 +1,93 @@
 * {
-    background-color: aquamarine;
+   
     color: blueviolet;
     margin: 0;
     padding: 0;
-    box-decoration-break: slice;
 }
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
+
 header h1, header h2, footer h1, footer p{
-height: 10vh;
+height: 7vh;
 background-color: blue;
 color: antiquewhite;
-text-align: center;}
-main{
+text-align:center;}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    justify-content: space-around;
+}
+main{  background-color: aquamarine;
+    flex-wrap: wrap;
     flex:1;
     padding: 50px;
     display:flex;
     flex-wrap: wrap;
     text-align:left;
+    
 }
+
 #aboutme img{
-    width: 40%;
-    height: auto;
+    height: 200px;
     display: flex;
 }
+
 #workpic img{
-    width: 40%;
-    height: auto;
-    display: flex;
+
+    width: 35%;
 }
-#contact info{
-    text-align: center;
+
+#contact a, .ending
+{   
     display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    color: black;
+}
+
+.section {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.work-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.work-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    border-left: 1px solid black;
+    padding: 30px;
+}
+@media screen and (max-width: 768px)  {
+    .section {
+        flex-direction: column;
+    }
+
+    .content {
+        border-left: none;
+        padding: 0;
+    }
+
+    #workpic img{
+
+        width: 90%;
+    }
 }
