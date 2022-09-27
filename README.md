@@ -9,7 +9,9 @@ This page has been modified with CSS so that is can flex to the size of screen y
 URL used for assistance: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 I recieved some very helpful insight from the tutors on editing my page to make it run smoothly.
+
 readme.md
 ![flex size](flexsize.png)
 ![profile full](profilefull.png)
 
+https://mfarrell23.github.io/Profile-page/
