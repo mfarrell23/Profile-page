@@ -1,4 +1,4 @@
-# Profile-page
+# Profile-page - Michelle Beaudoin
 This project is callled Michelle's Profile Page.
 This page is a small profile for future employees to take a peek at me.
 My page is meant to provide some incite as to who I am, and what i can do.
